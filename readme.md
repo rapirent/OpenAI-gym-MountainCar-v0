@@ -27,12 +27,12 @@ $ python3 hw4.py [-h] [-n MODEL_NAME] [-e TRAIN_EPISODE] [-l STEP_LIMIT] [-s STA
 - You can use shell script to execute the models
 
 ```sh
-bash command.sh
+$ bash command.sh
 ```
 
 ## detail and report
 
-You can refer to jupyter notebook report.ipynb
+You can refer to jupyter notebook [report.ipynb](https://nbviewer.jupyter.org/github/rapirent/DSAI-HW4/blob/master/report.ipynb)
 
 ## LICNESE
 
