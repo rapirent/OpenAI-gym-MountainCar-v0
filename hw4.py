@@ -19,6 +19,8 @@ env.seed(21)
 TRAIN_EPISODE = int(args.train_episode)
 STEP_LIMIT = int(args.step_limit)
 
+console_output = open('./console_log/' + args.model_name, 'w')
+
 class Qlearning():
 
     def __init__(self):
@@ -108,7 +110,7 @@ for i in range(TRAIN_EPISODE):
         cur_p = new_p
         cur_v = new_v
         a = a_expect
-
+        # env.render()_
         if new_position >= 0.5:
             total_step_list.append(total_step)
             total_reward_list.append(total_reward)
@@ -118,8 +120,7 @@ for i in range(TRAIN_EPISODE):
         total_step_list.append(float('nan'))
         total_reward_list.append(float('nan'))
         fail.append(1)
-        # env.render()
-    print(i, "th train finish in reward: ", total_reward, 'steps: ', total_step, file= './console_log/' + args.model_name)
+    print(i, "th train finish in reward: ", total_reward, 'steps: ', total_step, file=console_output)
 
 plt.title('reward')
 plt.ylabel('reward')
