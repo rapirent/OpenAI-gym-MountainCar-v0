@@ -142,3 +142,5 @@ plt.xlabel('epoch')
 plt.plot(fail)
 plt.savefig('./fig/' + args.model_name + '-fail.png')
 plt.clf()
+
+print(args.model_name + ' successful')
