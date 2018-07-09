@@ -1,5 +1,5 @@
 # OpenAI-gym-MountainCar-v0
-use seq2seq to implement simple arithmetic operation
+simple q-learning
 
 ## files & directories
 - fig/*: the figures of each experiment
@@ -32,7 +32,7 @@ $ bash command.sh
 
 ## detail and report
 
-You can refer to jupyter notebook [report.ipynb](https://nbviewer.jupyter.org/github/rapirent/DSAI-HW4/blob/master/report.ipynb)
+You can refer to jupyter notebook [report.ipynb](https://nbviewer.jupyter.org/github/rapirent/OpenAI-gym-MountainCar-v0/blob/master/report.ipynb)
 
 ## LICNESE
 
